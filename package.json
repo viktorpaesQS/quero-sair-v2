@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
   "dev": "ts-node ./index.ts",
-  "build": "npm ci --omit=dev && tsc",
+  "build": "npm ci --omit=dev && npx tsc --noEmitOnError",
   "start": "node dist/index.js"
 },
   "dependencies": {
